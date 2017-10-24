@@ -1,0 +1,49 @@
+/* Scss Document */
+.navbar {
+  background-color: #FFF;
+  border-bottom: 0px solid #373737;
+  margin-bottom: 3px; }
+  .navbar .navbar-nav {
+    float: none;
+    vertical-align: top; }
+    .navbar .navbar-nav li {
+      margin-bottom: 0px; }
+      .navbar .navbar-nav li a {
+        font-size: 25px; }
+      .navbar .navbar-nav li a:link {
+        border-bottom: 5px solid #FFF; }
+      .navbar .navbar-nav li a:visited {
+        border-bottom: 5px solid #FFF; }
+      .navbar .navbar-nav li a:hover {
+        border-bottom: 5px solid #2AAEEE; }
+  .navbar .navbar-collapse {
+    padding-left: 5px; }
+  .navbar h1 {
+    color: #313131;
+    margin-top: 2px; }
+
+#heading {
+  text-align: center; }
+  @media (min-width: 992px) {
+    #heading {
+      text-align: left; } }
+
+.container {
+  margin: 0px;
+  width: 100%; }
+
+.btn {
+  border-radius: 0px; }
+
+.highlights img {
+  width: 70px; }
+
+.heading-picture {
+  width: 100%;
+  padding: 0px; }
+  .heading-picture h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px; }
+  .heading-picture img {
+    position: relative; }

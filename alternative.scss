@@ -1,0 +1,83 @@
+/* Scss Document */
+
+.navbar {
+	.navbar-nav {
+  		float: none;
+  		vertical-align: top;
+		
+		
+
+		li{
+			a{
+				font-size: 25px;
+			}
+			a:link{
+				border-bottom: 5px solid #FFF;
+			}
+			a:visited{
+				border-bottom: 5px solid #FFF;
+			}
+			a:hover{
+				border-bottom: 5px solid #2AAEEE;
+
+			}
+			margin-bottom: 0px;
+		}
+		
+	}
+	
+	.navbar-collapse{
+		padding-left: 5px;
+	}
+	
+	h1{
+		color: #313131;
+		margin-top: 2px;
+	}
+	
+	background-color: #FFF;
+	border-bottom: 0px solid #373737;	
+	margin-bottom: 3px;
+}
+
+#heading{
+	text-align: center;
+	@media(min-width:992px){
+		text-align: left;
+	}
+	
+}
+
+.container{
+	margin: 0px;
+	width: 100%;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+.highlights{
+	img{
+		width: 70px;
+	}
+}
+
+
+.heading-picture{
+	width: 100%;
+	
+	padding: 0px;
+	
+	h1{
+		font-size: 100px;
+		text-align: center;
+		margin-top: 0px;
+	}
+	img{
+		position: relative; 
+	}
+	
+}
+
+
